@@ -1,0 +1,54 @@
+<!doctype html>
+<title>Home page </title>
+
+<body>
+<form method="post" action="/FlaskTutorial">
+<h1>Анкета</h1>
+        <h2></h2>
+
+        <p>1. Как к тебе обращаться(имя, ник)?
+        <input name="one" type="text" /></p>
+
+        <p>2. Дата рождения (в формате 31.12.2001)
+        <input name="two_dr" type="date" /></p>
+
+        <p>3. Пол: 
+        <input id="radio_1" name="two" type="radio" value="1" />
+        <label for="radio_1">мужской</label>
+        <input id="radio_2" name="three" type="radio" value="2" />
+        <label for="radio_2">женский</label><br /></p>
+    
+        <p>4. Часовой пояс (Пример: МСК +1; МСК)
+        <input name="four_" type="text" /></p>
+
+        <p>5. Опыт в этой сфере (в сканлейте)
+        <input name="five" type="text" /></p>
+        
+        <p>6. Состоишь ли в других командах? В каких?
+        <input name="six" type="text" /></p>
+        
+        <p>7. Кем хочешь работать? *По возрасту могут быть исключения:
+        <br><input name="seven" type="checkbox" />
+        ~Переводчик (16+)   </br>
+        <br><input name="eight" type="checkbox" /> ~Редактор (15+)  </br>   
+        <br><input name="nine" type="checkbox" />~QC (бета-тестер) (15+) </br>
+        <br><input name="ten" type="checkbox" />~Клинер (0+)  </br>   
+        </br><input name="eleven" type="checkbox" />~Тайпер (0+)   </br>  
+        <br><input name="twelve" type="checkbox" />~Эдитор (0+)    </br>
+        <br><input name="threteen" type="checkbox" />~Звукарь (15+)</br></p>
+        
+        <p>8. Есть предпочтения в жанрах? / С какими не хочешь работать?
+        <input name="foutheen" type="text" /></p>
+        <p>9. Какой указывать ник в визитке?
+        <input name="fifiteen" type="text" /></p>
+
+        <p>10. Ссылка на свою страницу мангалиба
+        <input name="sixteen" type="text" /></p>
+        
+        <p>11. Откуда узнал о нашей команде?
+        <input name="seventeen" type="text" /></p>
+        
+        <input type="submit" value="S" name="ok">
+        </form>
+        </body>
+<html>
